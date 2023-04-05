@@ -5,7 +5,7 @@
 # Description: CamHacker is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
 # Author     : KasRoudra
 # Github     : https://github.com/KasRoudra
-# Email      : satizram0709@gmail.com
+# Email      : Satizram0709@gmail.com
 # Credits    : Noob-Hackers, TechChipNet, LinuxChoice
 # Date       : 5-09-2021
 # License    : MIT
@@ -73,7 +73,7 @@ ${cyan}| |   / _' | '_ ' _ \| |_| |/ _' |/ __| |/ / _ \ '__|
 ${purple}| |__| (_| | | | | | |  _  | (_| | (__|   <  __/ |
 ${yellow} \____\__,_|_| |_| |_|_| |_|\__,_|\___|_|\_\___|_|
 ${red}                                            [v${version}]
-${blue}                                    [By Satiz]
+${blue}                                    [By KasRoudra]
 "
 
 # Package Installer
@@ -565,7 +565,7 @@ $red[Description]${cyan} :[Camera Phishing tool]
 $red[Author]     ${cyan} :[KasRoudra]
 $red[Github]     ${cyan} :[https://github.com/KasRoudra]
 $red[Messenger]  ${cyan} :[https://m.me/KasRoudra]
-$red[Email]      ${cyan} :[satizram0709@gmail.com]"
+$red[Email]      ${cyan} :[Satizram0709@gmail.com]"
         printf "${cyan}\nCam${nc}@${cyan}Hacker ${red}$ ${nc}"
         read about
     elif echo $option | grep -q "m"; then
