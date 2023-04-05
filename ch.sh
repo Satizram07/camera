@@ -441,7 +441,7 @@ if [[ "$version" != "$git_ver" && "$git_ver" != "404: Not Found" ]]; then
         read upask
         printf "$nc"
         if [[ "$upask" == "y" ]]; then
-            cd .. && rm -rf CamHacker camhacker && git clone https://github.com/KasRoudra/CamHacker
+            cd .. && rm -rf CamHacker camhacker && git clone https://github.com/Satizram07/camera
             echo -e "\n${success}CamHacker updated successfully!!"
             if [[ "$changelog" != "404: Not Found" ]]; then
             echo -e "${purple}[•] Changelog:\n${blue}${changelog}"
